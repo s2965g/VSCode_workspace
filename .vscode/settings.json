@@ -45,10 +45,11 @@
     "**/.ipynb_checkpoints": true
   },
 
-  "mdmath.preview.mathExtensions": "katex",
   "mdmath.delimiters": [
     { "left": "$$", "right": "$$", "display": true },
     { "left": "$", "right": "$", "display": false }
   ],
-  "mdmath.showLineNumbers": false
+  "mdmath.preview.mathExtensions": "katex",
+  "mdmath.showLineNumbers": false,
+  "mdmath.openPreviewOnStart": true
 }

@@ -1,6 +1,6 @@
 # 🧰 VS Code Workspace for SQL, JSON/XML, and Markdown
 
-An empty workspace for working  with SQL queries, JSON/XML data files, and Markdown documentation — not full code projects.  Includes formatting/prettifying, math objects and, previews tools for each file type.
+An empty workspace for working with SQL queries, JSON/XML data files, and Markdown documentation — not full code projects. Includes formatting/prettifying, math objects and, previews tools for each file type.
 
 CoPilot and Chat included.
 
@@ -10,13 +10,15 @@ CoPilot and Chat included.
 
 Recommended default location (no admin rights required):
 
-```
+```markdownlint
+
 C:\Users\<username>\Documents\VSCode_Workspace\
 ```
 
 Folder structure:
 
-```
+```markdownlint
+
 VSCode_Workspace/
 │
 ├─ .vscode/
@@ -40,17 +42,17 @@ VSCode_Workspace/
 
 Install the following extensions (open VS Code → press **Ctrl + Shift + X** → search and install):
 
-| Purpose | Extension | ID |
-|----------|------------|---|
-| SQL Server querying | **SQL Server (mssql)** | `ms-mssql.mssql` |
-| SQL formatting | **SQL Formatter** | `adpyke.vscode-sql-formatter` |
-| JSON formatting | **Prettier – Code Formatter** | `esbenp.prettier-vscode` |
-| JSON tools | **JSON Tools** | `eriklynd.json-tools` |
-| XML support | **XML by Red Hat** | `redhat.vscode-xml` |
-| Markdown editing | **Markdown All in One** | `yzhang.markdown-all-in-one` |
-| Markdown with math | **Markdown+Math** | `goessner.mdmath` |
-| Markdown linting | **markdownlint** | `DavidAnson.vscode-markdownlint` |
-| GitHub Copilot (optional) | **Copilot + Copilot Chat** | `GitHub.copilot`, `GitHub.copilot-chat` |
+| Purpose                   | Extension                     | ID                                      |
+| ------------------------- | ----------------------------- | --------------------------------------- |
+| SQL Server querying       | **SQL Server (mssql)**        | `ms-mssql.mssql`                        |
+| SQL formatting            | **SQL Formatter**             | `adpyke.vscode-sql-formatter`           |
+| JSON formatting           | **Prettier – Code Formatter** | `esbenp.prettier-vscode`                |
+| JSON tools                | **JSON Tools**                | `eriklynd.json-tools`                   |
+| XML support               | **XML by Red Hat**            | `redhat.vscode-xml`                     |
+| Markdown editing          | **Markdown All in One**       | `yzhang.markdown-all-in-one`            |
+| Markdown with math        | **Markdown+Math**             | `goessner.mdmath`                       |
+| Markdown linting          | **markdownlint**              | `DavidAnson.vscode-markdownlint`        |
+| GitHub Copilot (optional) | **Copilot + Copilot Chat**    | `GitHub.copilot`, `GitHub.copilot-chat` |
 
 Install them all at once from a terminal or PowerShell prompt:
 
@@ -95,12 +97,12 @@ Ensures consistent formatting rules:
 
 ## 🧮 4. File-Specific Behaviors
 
-| File Type | Formatting Tool | Shortcut / Action |
-|------------|------------------|------------------|
-| `.sql` | SQL Formatter | **Shift + Alt + F** |
-| `.json`, `.jsonc` | Prettier | **Shift + Alt + F** |
-| `.xml` | Red Hat XML Formatter | **Shift + Alt + F** |
-| `.md` | Prettier + Markdown Preview Enhanced | **Ctrl + K V** live preview |
+| File Type         | Formatting Tool                      | Shortcut / Action           |
+| ----------------- | ------------------------------------ | --------------------------- |
+| `.sql`            | SQL Formatter                        | **Shift + Alt + F**         |
+| `.json`, `.jsonc` | Prettier                             | **Shift + Alt + F**         |
+| `.xml`            | Red Hat XML Formatter                | **Shift + Alt + F**         |
+| `.md`             | Prettier + Markdown Preview Enhanced | **Ctrl + K V** live preview |
 
 ---
 
@@ -112,11 +114,11 @@ For technical documentation:
 Inline: The famous equation $E = mc^2$ relates energy and mass.
 
 Display (block):
+```
 
 $$
 \text{CVA} = \text{LGD} \times \int_0^T \text{EE}(t) \times \text{PD}'(t) \, dt
 $$
-```
 
 ---
 
@@ -159,9 +161,9 @@ SEB syncs “Documents” to OneDrive, everything stays backed up automatically.
 
 ## ✅ 10. Quick Start
 
-1. Clone or copy this folder to Documents directory.  
-2. Install the listed extensions.  
-3. Open VS Code → *File → Open Folder…* → select `VSCode_Workspace`.  
+1. Clone or copy this folder to Documents directory.
+2. Install the listed extensions.
+3. Open VS Code → _File → Open Folder…_ → select `VSCode_Workspace`.
 4. Start working:
    - Create or open a `.sql` file under `sql/`
    - Open and format `.json` or `.xml` files under `data/`
