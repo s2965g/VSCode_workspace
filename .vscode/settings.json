@@ -1,0 +1,54 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "sql-formatter.dialect": "tsql",
+  "sql-formatter.uppercase": true,
+  "sql-formatter.linesBetweenQueries": 2,
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.formatOnSave": true
+  },
+  "xml.format.splitAttributes": true,
+  "xml.format.spaceBeforeEmptyCloseTag": true,
+  "xml.preferences.quoteStyle": "double",
+  "xml.format.preserveEmptyContent": false,
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "markdown.preview.breaks": true,
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true
+  },
+
+  "mdmath.preview.mathExtensions": "katex",
+  "mdmath.delimiters": [
+    { "left": "$$", "right": "$$", "display": true },
+    { "left": "$", "right": "$", "display": false }
+  ],
+  "mdmath.showLineNumbers": false
+}
